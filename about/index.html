@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="spacecraft">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Space Craft</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-[url('/assets/space.jpg')] overflow-hidden h-[100vh] m-0">
+    <div id="notification-container" class="fixed top-0 right-0 flex flex-col items-end mt-[10px] gap-5"></div>
+    <div class="absolute top-5 left-5 flex justify-center items-center gap-5">
+        <img src="/assets/spacecrafticon.png" class="w-20 pointer-events-none">
+        <div class="tabs tabs-boxed">
+            <a class="tab" href="/index.html">Home</a> 
+            <a class="tab tab-active" href="/about/index.html">About</a> 
+            <a class="tab" href="/credits/index.html">Credits</a>
+        </div>
+    </div>
+    <div class="hero min-h-screen">
+        <div class="hero-content text-center">
+            <div class="max-w-md">
+                <img src="/assets/spacecraft.png" class="pointer-events-none">
+                <p class="py-6">Space Craft is a Minecraft server created by <a href="https://theannoying.github.io" class="hover:underline">TheAnnoying</a>. The idea is quite simple, and inspired by a <a href="https://minehut.com/" class="hover:underline">Minehut</a> server called <a href="https://discord.gg/k5xj9tC" class="hover:underline">"WWWings"</a>.<br>You're contained inside a box in space and you can build inside the box using the blocks you buy from the shop. Those blocks could also be used for decorative building and protection.<br>• If you fall too far down, you'll die.<br>• You earn coins by killing other players, and that could be achieved using the kits or explosives from the shop.<br>• You can use gadgets such as the jetpack to fly around!</p>
+                <div class="flex flex-col gap-5">
+                    <div class="tooltip tooltip-bottom" data-tip="Click to copy"><kbd class="kbd kbd-lg" onclick="copyText()">play.space-craft.cf</kbd></div>
+                    <button class="btn btn-primary btn-outline">Back Home</button>
+                </div>
+                <div class="alert shadow-lg opacity-0" id="alert">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span>Succesfully copied to clipboard!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
