@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.smooth {
+    transform: translateX(calc(100% + 20px));
+    transition: transform .5s;
+}
+
+.notification-slide {
+    transform: translateX(-20px)!important;
+}
