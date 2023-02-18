@@ -7485,20 +7485,6 @@ html {
   transform: none;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 100;
-  }
-}
-
-.animate-fade {
-  animation: fadeIn 0.6s;
-}
-
 .touch-auto {
   touch-action: auto;
 }
