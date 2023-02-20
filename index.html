@@ -7,16 +7,28 @@
     <title>Space Craft</title>
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="prerender" href="/about.html">
+    <link rel="prerender" href="/blog.html">
 </head>
 <body class="bg-[url('/assets/space.jpg')]">
     <div id="notification-container" class="fixed top-0 right-0 flex flex-col items-end mt-[10px] gap-5"></div>
     <div class="absolute top-5 left-5 flex justify-center items-center gap-5">
         <img src="/assets/spacecrafticon.png" class="w-20 pointer-events-none">
         <div class="tabs tabs-boxed">
-            <a class="tab tab-active" href="/index.html">Home</a> 
-            <a class="tab" href="/about.html">About</a> 
-            <a class="tab" href="/blog.html">Blog</a>
+            <a class="tab tab-active" href="/index.html">
+                <i class="fa-solid fa-house mr-[7px]"></i>Home
+            </a>
+            <a class="tab" href="/about.html">
+                <i class="fa-solid fa-user mr-[7px]"></i>
+                About
+            </a> 
+            <a class="tab" href="/blog.html">
+                <i class="fa-solid fa-palette mr-[7px]"></i>
+                Cosmetics
+            </a>
         </div>
+    </div>
+    <div class="absolute top-5 right-5">
+        <a href="" class="hover:underline"><i class="fa-solid fa-compass"></i></a>
     </div>
     <div class="hero min-h-screen">
         <div class="hero-content text-center">
@@ -33,5 +45,6 @@
         </div>
     </div>
     <script src="src/index.js"></script>
+    <script src="https://kit.fontawesome.com/d275cba850.js" crossorigin="anonymous"></script>
 </body>
 </html>
