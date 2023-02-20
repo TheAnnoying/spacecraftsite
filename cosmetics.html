@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="spacecraft">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Craft</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="prerender" href="/about.html">
+    <link rel="prerender" href="/blog.html">
+</head>
+<body class="bg-[url('/assets/space.jpg')] relative">
+    <div id="notification-container" class="fixed top-0 right-0 flex flex-col items-end mt-[10px] gap-5"></div>
+    <img class="absolute bottom-0 left-0" src="/assets/mannequinstrimmed.png" width="250">
+    <div class="absolute top-5 left-5 flex justify-center items-center gap-5">
+        <img src="/assets/spacecrafticon.png" class="w-20 pointer-events-none">
+        <div class="tabs tabs-boxed">
+            <a class="tab" href="/index.html">
+                <i class="fa-solid fa-house mr-[7px]"></i>Home
+            </a>
+            <a class="tab" href="/about.html">
+                <i class="fa-solid fa-user mr-[7px]"></i>
+                About
+            </a> 
+            <a class="tab tab-active" href="/cosmetics.html">
+                <i class="fa-solid fa-palette mr-[7px]"></i>
+                Cosmetics
+            </a>
+        </div>
+    </div>
+    <div class="absolute top-5 right-5">
+        <a href="" class="hover:underline"><i class="fa-solid fa-compass"></i></a>
+    </div>
+    <div class="hero min-h-screen">
+        <div class="hero-content text-center">
+            <div class="max-w-md">
+                <img src="/assets/spacecraft.png" class="pointer-events-none">
+                <div class="flex flex-col w-full"><div class="divider"></div></div>
+                <div class="flex gap-5 flex-wrap">
+                    <div class="bg-neutral p-10 rounded-2xl">
+                        <img src="/assets/cosmetics/camera.png">
+                        <h1 class="font-bold text-xl mt-10">Camera Balloon</h1>
+                        <p class="mb-5">Go around with the Camera Balloon, say cheese!</p>
+                        <span class="bg-info p-2 rounded-xl text-info-content"><i class="fa-solid fa-coins"></i> 120 coins</span>
+                    </div>
+                    <div class="bg-neutral p-10 rounded-2xl">
+                        <img src="/assets/cosmetics/regular_balloon.png">
+                        <h1 class="font-bold text-xl mt-10">Regular Balloon</h1>
+                        <p class="mb-5">The regular old balloon, enjoy it while it's there</p>
+                        <span class="bg-info p-2 rounded-xl text-info-content"><i class="fa-solid fa-coins"></i> 70 coins</span>
+                    </div>
+                </div>
+                <a href="/index.html" class="btn btn-primary btn-outline btn-wide mt-5">Back Home</a>
+            </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+    <script src="https://kit.fontawesome.com/d275cba850.js" crossorigin="anonymous"></script>
+</body>
+</html>
