@@ -26,7 +26,7 @@ const cosmeticList = document.getElementById("cosmetic-list");
 
 function addCosmetic(args){
     let element = document.createElement("div");
-    element.classList.add("bg-neutral", "p-10", "rounded-2xl", "hover:text-white", "duration-700", "hover:bg-base200");
+    element.classList.add("bg-neutral", "p-10", "rounded-2xl", "hover:text-white", "duration-700", "hover:bg-base-200");
     element.innerHTML = `
         <img src="${args.imgsrc}">
         <h1 class="font-bold text-xl mt-10">${args.name}</h1>
