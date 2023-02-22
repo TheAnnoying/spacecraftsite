@@ -45,7 +45,7 @@ addCosmetic({
 
 addCosmetic({
     imgsrc: "/assets/cosmetics/regular_balloon.png",
-    name: "The regular old balloon, enjoy it while it's there",
-    description: "Go around with the Camera Balloon, say cheese!",
+    name: "Regular Balloon",
+    description: "The regular old balloon, enjoy it while it's there",
     cost: 70
 });
