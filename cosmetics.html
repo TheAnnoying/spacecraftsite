@@ -14,15 +14,14 @@
 
 <body class="bg-[url('/assets/space.jpg')] relative">
     <div id="notification-container" class="fixed top-0 right-0 flex flex-col items-end mt-[10px] gap-5"></div>
-    <img class="absolute bottom-0 left-0" src="/assets/mannequinstrimmed.png" width="250">
+    <img class="absolute bottom-0 left-0 max-[975px]:hidden" src="/assets/mannequinstrimmed.png" width="250">
 
     <div data-include-html="/components/navbarCosmetics.html"></div>
-    <a href="#compass" class="hover:underline absolute top-5 right-5"><i class="fa-solid fa-compass"></i></a>
 
     <div class="hero min-h-screen">
         <div class="hero-content text-center">
             <div class="max-w-md">
-                <img src="/assets/spacecraft.png" class="pointer-events-none">
+                <img src="/assets/spacecraftnewlogo.png" class="pointer-events-none">
                 <div class="flex flex-col w-full"><div class="divider"></div></div>
                 <div class="flex gap-5 flex-wrap" id="cosmetic-list"></div>
                 <a href="/index.html" class="btn btn-primary btn-outline btn-wide mt-5">Back Home</a>
