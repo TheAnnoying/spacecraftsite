@@ -1,16 +1,49 @@
-<div class="absolute top-5 left-5 flex justify-center items-center gap-5">
-    <img src="/assets/spacecrafticon.png" class="w-20 pointer-events-none">
-    <div class="tabs tabs-boxed">
-        <a class="tab tab-active" href="/index.html">
-            <i class="fa-solid fa-house mr-[7px]"></i>Home
-        </a>
-        <a class="tab" href="/about.html">
-            <i class="fa-solid fa-user mr-[7px]"></i>
-            About
-        </a> 
-        <a class="tab" href="/cosmetics.html">
-            <i class="fa-solid fa-palette mr-[7px]"></i>
-            Cosmetics
-        </a>
+<div class="navbar">
+    <div class="navbar-start gap-3">
+        <img src="/assets/spacecrafticon.png" class="w-20 pointer-events-none">
+        <div class="tabs tabs-boxed block max-[826px]:hidden">
+            <a class="tab tab-active" href="/index.html">
+                <i class="fa-solid fa-house mr-[7px]"></i>Home
+            </a>
+            <a class="tab" href="/about.html">
+                <i class="fa-solid fa-user mr-[7px]"></i>
+                About
+            </a>
+            <a class="tab" href="/cosmetics.html">
+                <i class="fa-solid fa-palette mr-[7px]"></i>
+                Cosmetics
+            </a>
+        </div>
+    </div>
+    <div class="navbar-center hidden max-[826px]:block max-[415px]:hidden">
+        <div class="tabs tabs-boxed">
+            <a class="tab tab-active" href="/index.html">
+                <i class="fa-solid fa-house mr-[7px]"></i>Home
+            </a>
+            <a class="tab" href="/about.html">
+                <i class="fa-solid fa-user mr-[7px]"></i>
+                About
+            </a>
+            <a class="tab" href="/cosmetics.html">
+                <i class="fa-solid fa-palette mr-[7px]"></i>
+                Cosmetics
+            </a>
+        </div>
+    </div>
+    <div class="navbar-center hidden max-[415px]:block">
+        <div class="tabs tabs-boxed">
+            <a class="tab tab-active" href="/index.html">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <a class="tab" href="/about.html">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <a class="tab" href="/cosmetics.html">
+                <i class="fa-solid fa-palette"></i>
+            </a>
+        </div>
+    </div>
+    <div class="navbar-end">
+        <a href="#compass" class="absolute top-5 right-5"><i class="fa-solid fa-compass"></i></a>
     </div>
 </div>
