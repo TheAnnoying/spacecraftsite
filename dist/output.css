@@ -1879,6 +1879,14 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.outline-\[10px\] {
+  outline-width: 10px;
+}
+
+.outline-white {
+  outline-color: #fff;
+}
+
 .duration-150 {
   transition-duration: 150ms;
 }
