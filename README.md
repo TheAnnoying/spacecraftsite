@@ -1,1 +1,1 @@
-![App Screenshot](/assets/spacecraft.png)
+![App Screenshot](/assets/spacecraftnewlogo.png)
